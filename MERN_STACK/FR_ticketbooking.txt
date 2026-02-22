@@ -1,0 +1,89 @@
+Functional requirements and use case for ticket booking application
+
+
+FR1: User Registration & Login
+
+The system will provide the ability to register and log in.
+
+The system will be used to verify users using legitimate credentials.
+
+FR2: View Available Tickets
+
+The system will show the events or shows that are available.
+
+The system will display the date, time, location and the cost of the ticket.
+
+FR3: Seat Selection
+
+The system will provide the ability of the user to choose seats that are available.
+
+The system will avoid duplication of the bookings of the seats.
+
+FR4: Ticket Booking
+
+The system will enable the user to reserve the seats that they have chosen.
+
+The system will determine the price of all the tickets booked.
+
+FR5: Payment
+
+The system will offer the users the option of paying online.
+
+Status of the payment shall be verified by the system.
+
+FR6: Ticket Confirmation
+
+Once payments are made successfully, the system will produce an electronic ticket.
+
+The system will show the user the booking details.
+
+FR7: Ticket Cancellation
+
+The system will allow the users to cancel cancelled tickets.
+
+The system will change the availability of seats after a cancellation.
+
+Use Cases (Simplified)
+Use Case 1: Register / Login
+
+Actor: User
+Description: the user opens an account or signs in the application.
+Output: The user gains entry into the application.
+
+Use Case 2: View Shows / Events
+
+Actor: User
+Description: The user can see the list of available tickets.
+Output: A table of the events to be conducted is presented.
+
+Use Case 3: Select Seats
+
+Actor: User
+Description: The user chooses seats that are pertinent to booking.
+Conclusion: The seats are provisionally booked.
+
+Use Case 4: Book Ticket
+
+Actor: User
+Description: The user makes a reservation of the selected seats.
+Outcome: The booking process is started.
+
+Use Case 5: Make Payment
+
+Actor: User
+Description: Online payment is done by the user.
+Outcome: The payment is made success or failure.
+
+Use Case 6: View Ticket
+
+Actor: User
+Description: The ticket that has been booked is displayed to the user.
+Output: The information about the ticket is presented.
+
+Use Case 7: Cancel Ticket
+
+Actor: User
+Description: Cancelling of a ticket is done by the user when he or she has already booked the ticket.
+Findings: The ticket will be cancelled.
+
+
