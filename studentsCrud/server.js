@@ -20,18 +20,13 @@ async function connectDB() {
 }
 connectDB();
 
-// =====================
-// GET ALL STUDENTS
-// =====================
 app.get("/students", async (req, res) => {
   const db = client.db(dbName);
   const students = await db.collection("students").find().toArray();
   res.json(students);
 });
 
-// =====================
-// GET SINGLE STUDENT
-// =====================
+
 app.get("/students/:id", async (req, res) => {
   const db = client.db(dbName);
   const student = await db
